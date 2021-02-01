@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Mesto</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./pages/index.css">
+</head>
+
+<body class="root">
+    <div class="popup ">
+        <div class="popup__container">
+            <img class="form__cross button" src="./images/cross.svg">
+            <div class="form__frame">
+                <p class="form__title">Редактировать профиль</p>
+                <input type="text" class="form__input form__name" text="тест">
+                <input type="text" class="form__input form__bio">
+                <button class="form__save">Сохранить</button>
+            </div>
+        </div>
+    </div>
+    <main>
+        <section class ="profile">
+            <div class="profile__frame"> 
+                <img class="profile__avatar" src="./images/avatar.png">
+                <div class="profile__info">
+                    <div class="profile__person">
+                        <h1 class="profile__title">Жак-Ив Кусто</h1>
+                        <button class="profile__edit-button button"></button>
+                    </div>
+                    <p class="profile__subtitle">Исследователь океана</p>
+                </div>
+                <button class="profile__add-button button">+</button>
+
+            </div>
+        </section>
+        <section class ="elements">
+            <div class = "elements__frame">
+                <div class ="element">
+                    <img class = "element__img" src="./images/photo-grid/1.png" alt="пейзжа припроды России">
+                    <div class ="element__caption">
+                      <p class="element__place">Карачаево-Черкессия</p>
+                      <img class="element__heart" src="./images/heath.svg">
+                    </div>
+                </div>
+                <div class ="element">
+                    <img class = "element__img" src="./images/photo-grid/2.png" alt="пейзжа припроды России">
+                    <div class ="element__caption">
+                        <p class="element__place">Гора Эльбрус</p>
+                        <img class="element__heart" src="./images/heath.svg">
+                    </div>
+                </div>
+                <div class ="element">
+                    <img class = "element__img" src="./images/photo-grid/3.png" alt="пейзжа припроды России">
+                    <div class ="element__caption">
+                        <p class="element__place">Домбай</p>
+                        <img class="element__heart" src="./images/heath.svg">
+                    </div>
+                </div>
+                <div class ="element">
+                    <img class = "element__img" src="./images/photo-grid/4.png" alt="пейзжа припроды России">
+                    <div class ="element__caption">
+                        <p class="element__place">Гора Эльбрус</p>
+                        <img class="element__heart" src="./images/heath.svg">
+                    </div>
+                </div>
+                <div class ="element">
+                    <img class = "element__img" src="./images/photo-grid/5.png" alt="пейзжа припроды России">
+                    <div class ="element__caption">
+                        <p class="element__place">Домбай</p>
+                        <img class="element__heart" src="./images/heath.svg">
+                    </div>
+                </div>
+                <div class ="element">
+                    <img class = "element__img" src="./images/photo-grid/6.png" alt="пейзжа припроды России">
+                    <div class ="element__caption">
+                        <p class="element__place">Карачаево-Черкессия</p>
+                        <img class="element__heart" src="./images/heath.svg">
+                    </div>
+                </div>
+            </div> 
+        </section> 
+    </main>
+    <footer class="footer">
+        <p class="footer__copyright">&copy;2021 Mesto Russia</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

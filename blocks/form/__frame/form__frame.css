@@ -1,0 +1,15 @@
+.form__frame{
+    width:282px;
+    background-color:white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    z-index: 30;
+}
+
+@media screen and (min-width: 900px) {
+    .form__frame{
+        width: 430px;
+    }
+}

@@ -1,0 +1,15 @@
+.form__cross{
+    position: absolute;
+    top:-40px;
+    left: 255px;
+    width: 26px;
+    height: 26px;
+}
+
+@media screen and (min-width: 900px) {
+    .form__cross{
+        left: 425px;
+        width: 40px;
+        height: 40px;
+    }
+}

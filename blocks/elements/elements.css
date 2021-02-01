@@ -1,0 +1,17 @@
+.elements{
+    margin-top: 36px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width:100%;
+}
+
+@media screen and (min-width: 680px) {
+    .elements{
+    }
+}
+
+@media screen and (min-width: 1023px) {
+    .elements{
+    }
+}

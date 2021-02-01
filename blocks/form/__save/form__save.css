@@ -1,0 +1,16 @@
+.form__save{
+    color:white;
+    background-color:black;
+    width: 74%;
+    height: 46px;
+    text-align:center;
+    vertical-align: baseline;
+    display: inline-block;
+    margin-top: 28px;
+    margin-bottom: 25px;
+}
+
+.form__save:hover{
+    opacity: 0.8;
+    cursor: cursor;
+}

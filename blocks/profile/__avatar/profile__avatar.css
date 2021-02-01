@@ -1,0 +1,12 @@
+.profile__avatar {
+    clip-path: circle(50%);
+    width:127px;
+    height: 127px;
+    z-index: -1;
+}
+
+@media screen and (min-width: 1280px) {
+    .lead__image{
+        width: min(80vw,984px);
+    }
+}

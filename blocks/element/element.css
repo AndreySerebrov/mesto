@@ -1,0 +1,21 @@
+.element{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width:282px;
+    border-radius: 10px;    
+    overflow: hidden; 
+    margin: 0;
+}
+
+@media screen and (min-width: 680px) {
+    .element{
+        /* margin-top:88px; */
+    }
+}
+
+@media screen and (min-width: 1023px) {
+    .element{
+        /* margin-top:92px; */
+    }
+}

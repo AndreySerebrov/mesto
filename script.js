@@ -17,8 +17,6 @@ document.querySelector('.form__save').addEventListener('click', function (e) {
   let profileTitle = document.querySelector(".profile__title");
   let profileSubtitle = document.querySelector(".profile__subtitle");
   
-
-  console.log(profileTitle.textContent)
   profileTitle.textContent = document.querySelector(".form__name").value;
   profileSubtitle.textContent = document.querySelector(".form__bio").value;
 

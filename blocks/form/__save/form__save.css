@@ -12,5 +12,5 @@
 
 .form__save:hover{
     opacity: 0.8;
-    cursor: cursor;
+    cursor: pointer;
 }

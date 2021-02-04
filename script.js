@@ -15,10 +15,12 @@ function openPopup(){
    popup.classList.add("popup_opened");
 }
 
-function save(){
-  
+function save(e){
+  e.preventDefault();
+
   profileTitle.textContent =  formName.value ;
   profileSubtitle.textContent = formBio.value;
+  
   closePopup();
 }
 

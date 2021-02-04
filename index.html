@@ -8,19 +8,6 @@
 </head>
 
 <body class="root">
-    <div class="popup ">
-        <div class="popup__container">
-            <div class="form">
-                <img class="form__cross button" src="./images/cross.svg" alt="кнопка 'закрыть' ">
-                <div class="form__frame">
-                    <p class="form__title">Редактировать профиль</p>
-                    <input type="text" class="form__input form__name">
-                    <input type="text" class="form__input form__bio">
-                    <button class="form__save">Сохранить</button>
-                </div>
-            </div>
-        </div>
-    </div>
     <header class= "header">
         <div class ="header__frame">
             <img class="header__logo" src="./images/svg/logo.svg" alt="лого">
@@ -37,7 +24,7 @@
                     </div>
                     <p class="profile__subtitle">Исследователь океана</p>
                 </div>
-                <button class="profile__add-button button">+</button>
+                <button class="profile__add-button button" type="button">+</button>
 
             </div>
         </section>
@@ -46,43 +33,43 @@
                 <div class ="element">
                     <img class = "element__img" src="./images/photo-grid/1.png" alt="пейзжа припроды России">
                     <div class ="element__caption">
-                      <p class="element__place">Карачаево-Черкессия</p>
-                      <img class="element__heart" src="./images/heath.svg"  alt="сердце">
+                      <h3 class="element__place">Карачаево-Черкессия</h3>
+                      <button class="element__heart" type="button"></button>
                     </div>
                 </div>
                 <div class ="element">
                     <img class = "element__img" src="./images/photo-grid/2.png" alt="пейзжа припроды России">
                     <div class ="element__caption">
-                        <p class="element__place">Гора Эльбрус</p>
-                        <img class="element__heart" src="./images/heath.svg"  alt="сердце">
+                        <h3 class="element__place">Гора Эльбрус</h3>
+                        <button class="element__heart" type="button"></button>
                     </div>
                 </div>
                 <div class ="element">
                     <img class = "element__img" src="./images/photo-grid/3.png" alt="пейзжа припроды России">
                     <div class ="element__caption">
-                        <p class="element__place">Домбай</p>
-                        <img class="element__heart" src="./images/heath.svg"  alt="сердце">
+                        <h3 class="element__place">Домбай</h3>
+                        <button class="element__heart" type="button"></button>
                     </div>
                 </div>
                 <div class ="element">
                     <img class = "element__img" src="./images/photo-grid/4.png" alt="пейзжа припроды России">
                     <div class ="element__caption">
-                        <p class="element__place">Гора Эльбрус</p>
-                        <img class="element__heart" src="./images/heath.svg"  alt="сердце"> 
+                        <h3 class="element__place">Гора Эльбрус</h3>
+                        <button class="element__heart" type="button"></button>
                     </div>
                 </div>
                 <div class ="element">
                     <img class = "element__img" src="./images/photo-grid/5.png" alt="пейзжа припроды России">
                     <div class ="element__caption">
-                        <p class="element__place">Домбай</p>
-                        <img class="element__heart" src="./images/heath.svg" alt="сердце">
+                        <h3 class="element__place">Домбай</h3>
+                        <button class="element__heart" type="button"></button>
                     </div>
                 </div>
                 <div class ="element">
                     <img class = "element__img" src="./images/photo-grid/6.png" alt="пейзжа припроды России">
                     <div class ="element__caption">
-                        <p class="element__place">Карачаево-Черкессия</p>
-                        <img class="element__heart" src="./images/heath.svg" alt="сердце">
+                        <h3 class="element__place">Карачаево-Черкессия</h3>
+                        <button class="element__heart" type="button"></button>
                     </div>
                 </div>
             </div> 
@@ -91,6 +78,19 @@
     <footer class="footer">
         <p class="footer__copyright">&copy;2021 Mesto Russia</p>
     </footer>
+    <div class="popup ">
+        <div class="popup__container">
+            <form class="form">
+                <img class="form__cross button" src="./images/cross.svg" alt="кнопка 'закрыть' ">
+                <div class="form__frame">
+                    <h2 class="form__title">Редактировать профиль</h2>
+                    <input type="text" name="person_name" class="form__input form__name" placeholder="Имя">
+                    <input type="text" name="person_bio"  class="form__input form__bio"  placeholder="Биография">
+                    <button class="form__save" type="submit">Сохранить</button>
+                </div>
+            </form>
+        </div>
+    </div>
     <script src="script.js"></script>
 </body>
 </html>

@@ -1,3 +1,12 @@
+.element__heart{
+    background-image: url(../../../images/heath.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: white;
+    border: none;
+    width: 30px;
+}
+
 .element__heart:hover{
     opacity: 0.5;
     cursor: pointer;

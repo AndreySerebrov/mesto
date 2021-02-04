@@ -3,12 +3,11 @@
   height: 24px;
   cursor: pointer;
   padding: 0;
-  background-image: url(../../../images/edit_button.png);
+  background-image: url(../../../images/edit_button.svg);
   background-position: center;
   background-repeat: no-repeat;
-  color: black;
-  border: none;
   background-color: black;
+  border: 1px solid white;
   margin: 0;
   margin-left: 15px;
 }

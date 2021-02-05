@@ -6,28 +6,30 @@ let formBio = document.querySelector(".form__bio");
 let editButton = document.querySelector('.profile__edit-button');
 let saveButton = document.querySelector('.form__save');
 let closeButton = document.querySelector('.form__cross');
+let submitForm = document.querySelector('.form');
 
 
-function openPopup(){
+function handleOpenPopup(){
   formName.value = profileTitle.textContent;
   formBio.value = profileSubtitle.textContent;
 
    popup.classList.add("popup_opened");
 }
 
-function save(e){
+function handleProfileFormSubmit(e){
   e.preventDefault();
 
   profileTitle.textContent =  formName.value ;
   profileSubtitle.textContent = formBio.value;
   
-  closePopup();
+  handleСlosePopup();
+  return false
 }
 
-function closePopup (){
+function handleСlosePopup (){
   popup.classList.remove("popup_opened");
 }
 
-editButton.addEventListener('click', openPopup);
-saveButton.addEventListener('click', save);
-closeButton.addEventListener('click', closePopup);
+editButton.addEventListener('click', handleOpenPopup);
+submitForm.addEventListener('submit', handleProfileFormSubmit);
+closeButton.addEventListener('click', handleСlosePopup);

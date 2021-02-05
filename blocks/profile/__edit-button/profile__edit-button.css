@@ -9,5 +9,11 @@
   background-color: black;
   border: 1px solid white;
   margin: 0;
-  margin-left: 15px;
+  margin-left: 18px;
+}
+
+@media screen and (min-width: 900px) {
+  .profile__edit-button{
+      margin-left: 15px;
+  }
 }

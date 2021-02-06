@@ -4,7 +4,14 @@
     font-size: 14px;
     line-height: 1.2;
     margin-bottom: 30px;
-    width: 74%;
+    width: 238px;
     border-color: rgba(0, 0, 0, 0.2);
     padding-bottom: 7px;
+}
+
+
+@media screen and (min-width: 900px) {
+    .form__input{
+        width: 358px;
+    }
 }

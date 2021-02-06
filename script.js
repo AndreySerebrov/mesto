@@ -9,7 +9,7 @@ let closeButton = document.querySelector('.popup__cross');
 let submitForm = document.querySelector('.form');
 
 
-function handleOpenPopup(){
+function openPopup(){
   formName.value = profileTitle.textContent;
   formBio.value = profileSubtitle.textContent;
 
@@ -22,14 +22,13 @@ function handleProfileFormSubmit(e){
   profileTitle.textContent =  formName.value ;
   profileSubtitle.textContent = formBio.value;
   
-  handleСlosePopup();
-  return false
+  closePopup();
 }
 
-function handleСlosePopup (){
+function closePopup (){
   popup.classList.remove("popup_opened");
 }
 
-editButton.addEventListener('click', handleOpenPopup);
+editButton.addEventListener('click', openPopup);
 submitForm.addEventListener('submit', handleProfileFormSubmit);
-closeButton.addEventListener('click', handleСlosePopup);
+closeButton.addEventListener('click', closePopup);

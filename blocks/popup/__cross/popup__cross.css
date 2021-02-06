@@ -1,7 +1,9 @@
 .popup__cross{
-    position: relative;
-    align-self: flex-end;
-    margin-bottom:14px;
+    position: absolute;
+    top: -50px;
+    left: 255px;
+    width: 26px;
+    height: 26px;
     width: 32px;
     height: 32px;
     padding: 0;
@@ -15,8 +17,8 @@
 
 @media screen and (min-width: 900px) {
     .popup__cross{
-        margin-bottom:0;
-        left: 49px;
+        top: -40px;
+        left: 425px;
         width: 49px;
         height: 49px;
     }

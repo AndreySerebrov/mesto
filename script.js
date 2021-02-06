@@ -5,7 +5,7 @@ let formName = document.querySelector(".form__name");
 let formBio = document.querySelector(".form__bio");
 let editButton = document.querySelector('.profile__edit-button');
 let saveButton = document.querySelector('.form__save');
-let closeButton = document.querySelector('.form__cross');
+let closeButton = document.querySelector('.popup__cross');
 let submitForm = document.querySelector('.form');
 
 

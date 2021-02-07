@@ -9,5 +9,6 @@
 @media screen and (min-width: 900px) {
     .profile__info{
         align-items: start;
+        width:400px;
     }
 }

@@ -1,5 +1,6 @@
 .profile__add-button{
     margin-top: 56px;
+    padding:0;
     width: 282px;
     height: 50px;
     color: white;
@@ -13,6 +14,7 @@
 
 @media screen and (min-width: 900px) {
     .profile__add-button{
+        margin-left: auto;
         margin-top: 0px;
         width: 150px;
     }
